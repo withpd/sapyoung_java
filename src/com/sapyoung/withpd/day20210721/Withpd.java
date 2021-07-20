@@ -26,7 +26,7 @@ public class Withpd {
 		System.out.println("사내 IT 교육을 맡고 있습니다.");
 	}
 	
-	private void getId() {
+	public void getId() {
 		System.out.println(getClass().getSimpleName());
 	}
 
