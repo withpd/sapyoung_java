@@ -1,12 +1,17 @@
 package com.sapyoung.heejung;
 
+import com.sapyoung.heejung.day20210720.Heejung;
+
 public class MainTest {
-	int a1 = 3;
 	
-	String a2 = "value";
+	String s = "d";
 	
-	public void disp1() {
-		System.out.println("dddd");
+	public static void main(String[] arg) {
+		Heejung h = new Heejung();
+		h.getMail();
+		h.getCompName();
+		h.getDepartName();
+		
+		
 	}
-	
 }
