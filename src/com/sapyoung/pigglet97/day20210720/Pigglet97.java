@@ -34,6 +34,6 @@ public class Pigglet97 {
 	      System.out.println("02-326-1182");
 	   }
 	public void getCompSite() {
-		      System.out.println("https://www.sapyoung.com");
+		      System.out.println("https://www.ebricks.co.kr");
 		   }
 }
