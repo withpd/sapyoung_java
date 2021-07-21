@@ -1,49 +1,42 @@
-package com.sapyoung.smjhsh.day20210720;
+package com.sapyoung.member.imachiri.day20210720;
 
-public class smjhsh {
+public class Imachiri {
+
 	public void getName() {
-		System.out.println("황소희");
-
+		System.out.println("안가은");
 	}
-
-	public void getDepartName() {
-		System.out.println("국어팀");
-
+	
+	public void getDepartname() {
+		System.out.println("디지털사업팀");
 	}
-
+	
 	public void getPosition() {
-		System.out.println("사원");
-
+		System.out.println("대리");
 	}
-
+	
 	public void getMail() {
-		System.out.println("smj21@sapyoung.com");
-
+		System.out.println("gean716@sapyoung.com");
 	}
-
+	
 	public void desc() {
-		System.out.println("국어 교재를 만듭니다.");
-
+		System.out.println("디지털사업팀 신사업 기획에 참여하고 있습니다.");
 	}
 
 	public void getId() {
 		System.out.println(getClass().getSimpleName());
-
 	}
 
 	public void getCompName() {
 		System.out.println("사회평론");
-
 	}
-
+	
 	public void getCompTel() {
 		System.out.println("02-326-1182");
-
 	}
-
+	
 	public void getCompSite() {
 		System.out.println("https://www.sapyoung.com");
-
 	}
 
 }
+
