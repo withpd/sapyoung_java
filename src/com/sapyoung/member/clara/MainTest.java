@@ -10,7 +10,6 @@ public class MainTest {
 //		c.getMail();
 //		c.getComeName();
 //		c.getDepartName();
-		
 		Gerbugi g = new Gerbugi();
 		g.getCompName();
 		g.desc();

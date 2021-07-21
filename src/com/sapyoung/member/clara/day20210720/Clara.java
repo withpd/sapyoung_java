@@ -9,7 +9,6 @@ public class Clara {
 	public void getPosition() {
 		System.out.println("¥Î«•");
 	}
-	
 	public void getDepartName() {
 		System.out.println("bricks");
 	}
