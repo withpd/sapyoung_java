@@ -37,5 +37,5 @@ public class Hooni7777 {
 	public void getCompSite() {
 		System.out.println("https://www.hibricks.com");
 	}
- 
+  
 }
