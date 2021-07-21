@@ -1,13 +1,16 @@
-package com.sapyoung.withpd.day20210720;
+package com.sapyoung.member.withpd.day20210721;
 
 public class Withpd {
 
-	public void getName() {
-		System.out.println("배성호");
+	public String getName() {
+		String name = "배성호";
+		return name;
 	}
 	
-	public void getPosition() {
-		System.out.println("강사");
+	public String getPosition() {
+//		String pos = "강사";
+//		return pos;
+		return "강사";
 	}
 
 	public void getFloor() {
@@ -17,7 +20,6 @@ public class Withpd {
 	public void getDepartName() {
 		System.out.println("기타");
 	}
-	
 	
 	public void getMail() {
 		System.out.println("withpd@gmail.com");
@@ -32,3 +34,8 @@ public class Withpd {
 	}
 	
 }
+
+
+
+
+
