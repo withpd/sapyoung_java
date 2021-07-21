@@ -1,4 +1,4 @@
-package com.sapyoung.ecodooly8.day20210720;
+package com.sapyoung.ecodooly8.day20210719;
 
 import com.sapyoung.Gerbugi.day20210720.Gerbugi;
 
