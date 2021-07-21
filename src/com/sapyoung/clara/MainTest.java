@@ -2,8 +2,6 @@ package com.sapyoung.clara;
 
 import com.sapyoung.Gerbugi.day20210720.Gerbugi;
 
-import com.sapyoung.clara.leeaesook.day20210720.Clara;
-
 public class MainTest {
 	String str = new String("str");
 	
