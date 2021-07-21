@@ -1,6 +1,6 @@
 package com.sapyoung.smjhsh.day20210720;
 
-public class smjhsh {
+public class Smjhsh {
 	public void getName() {
 		System.out.println("»≤º“»Ò");
 
