@@ -1,4 +1,4 @@
-package com.sapyoung.hooni7777;
+package com.sapyoung.member.hooni7777;
 
 import com.sapyoung.Gerbugi.day20210720.Gerbugi;
 import com.sapyoung.hooni7777.day20210720.Hooni7777;

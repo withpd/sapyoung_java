@@ -1,4 +1,4 @@
-package com.sapyoung.hooni7777.day20210720;
+package com.sapyoung.member.hooni7777.day20210720;
 
 public class Hooni7777 {
 	
@@ -37,5 +37,5 @@ public class Hooni7777 {
 	public void getCompSite() {
 		System.out.println("https://www.hibricks.com");
 	}
- 
+   
 }

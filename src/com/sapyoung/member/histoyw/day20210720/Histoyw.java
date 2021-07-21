@@ -1,13 +1,13 @@
-package com.sapyoung.hooni7777.day20210720;
+package com.sapyoung.member.histoyw.day20210720;
 
-public class Hooni7777 {
+public class Histoyw {
 	
 	public void getName() {
-		System.out.println("류정훈");
+		System.out.println("송용운");
 	}
 	
 	public void getDepartName() {
-		System.out.println("마케팅");
+		System.out.println("어린이사업부");
 	}
 	
 	public void getPosition() {
@@ -15,11 +15,11 @@ public class Hooni7777 {
 	}
 	
 	public void getMail() {
-		System.out.println("jason@ebricks.co.kr");
+		System.out.println("histoyw@sapyoung.com");
 	}
 	
 	public void desc() {
-		System.out.println("Bricks 마케팅을 맡고 있습니다");
+		System.out.println("용선생 시리즈 책임자입니다");
 	}
 	
 	public void getId() {
@@ -31,11 +31,11 @@ public class Hooni7777 {
 	}
 	
 	public void getCompTel() {
-		System.out.println("02-335-7399");
+		System.out.println("02-326-1182");
 	}
 	
 	public void getCompSite() {
-		System.out.println("https://www.hibricks.com");
+		System.out.println("https://www.sapyoung.com");
 	}
- 
+	
 }
