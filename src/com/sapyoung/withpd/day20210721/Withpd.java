@@ -1,8 +1,5 @@
 package com.sapyoung.withpd.day20210721;
 
-import com.sapyoung.company.Company;
-import com.sapyoung.pigglet97.day20210720.Pigglet97;
-
 public class Withpd {
 
 	public String getName() {
