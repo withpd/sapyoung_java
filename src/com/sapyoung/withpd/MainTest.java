@@ -8,7 +8,6 @@ public class MainTest {
 //		w.getCompName();
 //		w.getName();
 //		w.getId();
-		
 		Gerbugi g = new Gerbugi();
 		g.getCompName();
 		g.getName();
