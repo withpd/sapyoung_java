@@ -1,4 +1,4 @@
-package com.sapyoung.smjhsh;
+package com.sapyoung.member.smjhsh;
 
 import com.sapyoung.smjhsh.day20210720.Smjhsh;
 
