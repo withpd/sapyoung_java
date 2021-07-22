@@ -1,6 +1,6 @@
 package com.sapyoung.member.peepstest;
 
-import com.sapyoung.peepstest.day20210720.Peepstest;
+import com.sapyoung.member.peepstest.day20210720.Peepstest;
 
 public class MainTest {
 
