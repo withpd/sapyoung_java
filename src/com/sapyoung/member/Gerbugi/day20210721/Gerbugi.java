@@ -8,6 +8,7 @@ public class Gerbugi {
 	public String getName() {
 		String name = "³ª¿¬Èñ";
 		return name;
+ 
 	}
 	
 	public String getPosition() {
