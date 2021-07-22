@@ -1,13 +1,14 @@
 package com.sapyoung.member.Gerbugi.day20210721;
 
 import com.sapyoung.company.Company;
-import com.sapyoung.hooni7777.day20210720.Hooni7777;
+import com.sapyoung.member.hooni7777.day20210720.Hooni7777;
 
 public class Gerbugi {
 	
 	public String getName() {
 		String name = "³ª¿¬Èñ";
 		return name;
+ 
 	}
 	
 	public String getPosition() {
