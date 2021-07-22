@@ -1,7 +1,7 @@
 package com.sapyoung.member.seravision3;
 
-import com.sapyoung.Gerbugi.day20210720.Gerbugi;
-import com.sapyoung.seravision3.day20210720.Seravision3;
+import com.sapyoung.member.Gerbugi.day20210720.Gerbugi;
+import com.sapyoung.member.seravision3.day20210720.Seravision3;
 
 public class MainTest {
 	
