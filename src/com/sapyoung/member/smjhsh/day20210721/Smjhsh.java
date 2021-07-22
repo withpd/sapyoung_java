@@ -1,7 +1,7 @@
 package com.sapyoung.member.smjhsh.day20210721;
 
 import com.sapyoung.company.Company;
-import com.sapyoung.peepstest.day20210720.Peepstest;
+import com.sapyoung.member.peepstest.day20210720.Peepstest;
 
 public class Smjhsh {
 	public String getName() {
