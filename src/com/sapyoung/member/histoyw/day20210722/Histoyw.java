@@ -15,20 +15,28 @@ public class Histoyw {
 		return pos;
 	}
 	
-	public void getDepartName() {
-		System.out.println("어린이사업부");
+	public int getFloor() {
+		int floor = 2;
+		return floor;
+	}
+	
+	public String getDepartName() {
+		String depart = "어린이사업부";
+		return depart;
 	}
 		
-	public void getMail() {
-		System.out.println("histoyw@sapyoung.com");
+	public String getMail() {
+		String mail = "histoyw@sapyoung.com";
+		return mail;
 	}
 	
 	public void desc() {
 		System.out.println("용선생 시리즈 책임자입니다");
 	}
 	
-	public void getId() {
-		System.out.println(getClass().getSimpleName());
+	public String getId() {
+		String classname = getClass().getSimpleName();
+		return classname;
 	}
 		
 	public static void main(String[] args) {
