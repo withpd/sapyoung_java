@@ -1,17 +1,14 @@
 package com.sapyoung.member.augreen;
 
-import com.sapyoung.Gerbugi.day20210720.Gerbugi;
-import com.sapyoung.augreen.day20210720.Augreen;
+import com.sapyoung.member.Gerbugi.day20210720.Gerbugi;
+import com.sapyoung.member.augreen.day20210721.Augreen;
 
 public class MainTest {
-	
 	String s = "d";
-	
 	public static void main(String[] arg) {
 		Augreen a = new Augreen();
 		a.getName();
 		a.getMail();
-		a.getCompName();
 		a.getDepartName();
 	
 		Gerbugi g = new Gerbugi();

@@ -1,7 +1,7 @@
 package com.sapyoung.member.clara.day20210721;
 
 import com.sapyoung.company.Company;
-import com.sapyoung.heejung.day20210720.Heejung;
+import com.sapyoung.member.heejung.day20210720.Heejung;
 
 
 public class Clara {
@@ -10,6 +10,8 @@ public class Clara {
 		String name = "이애숙";
 		return name;
 	}
+	
+
 	
 	public String getPosition() {
 //		String pos = "대표";

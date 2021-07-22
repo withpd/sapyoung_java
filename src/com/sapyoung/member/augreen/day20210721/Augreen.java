@@ -1,7 +1,7 @@
 package com.sapyoung.member.augreen.day20210721;
 
 import com.sapyoung.company.Company;
-import com.sapyoung.histoyw.day20210720.Histoyw;
+import com.sapyoung.member.histoyw.day20210720.Histoyw;
 
 public class Augreen {
 	
@@ -10,6 +10,7 @@ public class Augreen {
 		return name;
 	}
 
+	
 	public void getDepartName() {
 		System.out.println("아카데미");
 	}
