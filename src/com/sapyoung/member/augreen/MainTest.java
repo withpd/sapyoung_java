@@ -6,7 +6,6 @@ import com.sapyoung.member.augreen.day20210721.Augreen;
 public class MainTest {
 	
 	String s = "d";
-	
 	public static void main(String[] arg) {
 		Augreen a = new Augreen();
 		a.getName();
