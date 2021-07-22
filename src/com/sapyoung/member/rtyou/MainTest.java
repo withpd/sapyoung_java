@@ -1,19 +1,24 @@
 package com.sapyoung.member.rtyou;
 
-import com.sapyoung.member.rtyou.day20210720.Rtyou;
+import com.sapyoung.member.rtyou.day20210722.Rtyou;
 
 public class MainTest {
-	String str =new String("str");
 	
 	public static void main(String[] arg) {
-		Rtyou w = new Rtyou();	
-		w.getMail();
-		w.getCompName();
-		w.getDepartName();
-		}	
+		
+	//	Rtyou r = new Rtyou();
+	//	r.getMail();
+	//	r.getDepartName();
+		
+	Rtyou rtyou = new Rtyou();
+	rtyou.desc();
+	String id = rtyou.getId();
 	
+	id = "["+ id +"]" + 1234;
+		System.out.println(id);
+		
+		
 	
-	
-	
+	}	
 	
 }
