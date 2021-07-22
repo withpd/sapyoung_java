@@ -16,8 +16,6 @@ public class Seravision3 {
 	}
 
 
-
-
 	public void getDepartName() {
 		System.out.println("原追特得");
 	}

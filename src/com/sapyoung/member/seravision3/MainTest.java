@@ -20,6 +20,5 @@ public class MainTest {
 		g.getId();
 	  }
 	
-	
 }
 
