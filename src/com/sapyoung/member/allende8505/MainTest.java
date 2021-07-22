@@ -1,7 +1,7 @@
 package com.sapyoung.member.allende8505;
 
-import com.sapyoung.Gerbugi.day20210720.Gerbugi;
-import com.sapyoung.allende8505.day20210720.Allende8505;
+import com.sapyoung.member.Gerbugi.day20210720.Gerbugi;
+import com.sapyoung.member.allende8505.day20210720.Allende8505;
 
 public class MainTest {
 	
