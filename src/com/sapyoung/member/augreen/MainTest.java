@@ -1,7 +1,7 @@
 package com.sapyoung.member.augreen;
 
-import com.sapyoung.Gerbugi.day20210720.Gerbugi;
-import com.sapyoung.augreen.day20210720.Augreen;
+import com.sapyoung.member.Gerbugi.day20210720.Gerbugi;
+import com.sapyoung.member.augreen.day20210721.Augreen;
 
 public class MainTest {
 	
