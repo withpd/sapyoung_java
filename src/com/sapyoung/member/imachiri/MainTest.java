@@ -1,7 +1,7 @@
 package com.sapyoung.member.imachiri;
 
-import com.sapyoung.Gerbugi.day20210720.Gerbugi;
-import com.sapyoung.imachiri.day20210720.Imachiri;
+import com.sapyoung.member.Gerbugi.day20210720.*;
+import com.sapyoung.member.imachiri.day20210720.*;
 
 public class MainTest {
 
