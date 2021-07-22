@@ -4,6 +4,7 @@ import com.sapyoung.company.Company;
 import com.sapyoung.member.histoyw.day20210720.Histoyw;
 
 public class Augreen {
+	
 	public String getName() {
 		String name = "°íÇÏ¿µ";		
 		return name;
