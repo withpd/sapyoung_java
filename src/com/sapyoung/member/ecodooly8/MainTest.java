@@ -18,6 +18,7 @@ public class MainTest {
 		g.getCompName();
 		g.getName();
 		g.getId();
+		g.getId();
 	}
 	
 }
