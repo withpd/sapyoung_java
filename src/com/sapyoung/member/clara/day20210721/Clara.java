@@ -11,6 +11,7 @@ public class Clara {
 		return name;
 	}
 	
+	
 	public String getPosition() {
 //		String pos = "¥Î«•";
 //		return pos;
