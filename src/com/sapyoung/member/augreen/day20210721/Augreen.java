@@ -10,6 +10,7 @@ public class Augreen {
 		return name;
 	}
 
+	
 	public void getDepartName() {
 		System.out.println("아카데미");
 	}
