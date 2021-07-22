@@ -1,7 +1,7 @@
 package com.sapyoung.member.ecodooly8;
 
-import com.sapyoung.Gerbugi.day20210720.Gerbugi;
-import com.sapyoung.ecodooly8.day20210719.Ecodooly8;
+import com.sapyoung.member.Gerbugi.day20210720.*;
+import com.sapyoung.member.ecodooly8.day20210719.*;
 
 public class MainTest {
 	String str = new String("str");
