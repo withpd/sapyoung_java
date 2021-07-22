@@ -7,6 +7,10 @@ public class Withpd {
 		return name;
 	}
 	
+	public static void main(String[] args) {
+		
+	}
+	
 	public String getPosition() {
 //		String pos = "°­»ç";
 //		return pos;
