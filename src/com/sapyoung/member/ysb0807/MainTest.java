@@ -1,7 +1,7 @@
 package com.sapyoung.member.ysb0807;
 
-import com.sapyoung.Gerbugi.day20210720.Gerbugi;
-import com.sapyoung.ysb0807.day20210720.Ysb0807;
+import com.sapyoung.member.Gerbugi.day20210720.Gerbugi;
+import com.sapyoung.member.ysb0807.day20210720.Ysb0807;
 
 public class MainTest {
 		
