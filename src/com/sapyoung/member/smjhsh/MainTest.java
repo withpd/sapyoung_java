@@ -1,6 +1,6 @@
 package com.sapyoung.member.smjhsh;
 
-import com.sapyoung.smjhsh.day20210720.Smjhsh;
+import com.sapyoung.member.smjhsh.day20210720.Smjhsh;
 
 public class MainTest {
 	String str =new String("str");
