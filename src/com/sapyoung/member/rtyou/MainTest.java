@@ -1,6 +1,6 @@
 package com.sapyoung.member.rtyou;
 
-import com.sapyoung.rtyou.day20210720.Rtyou;
+import com.sapyoung.member.rtyou.day20210720.Rtyou;
 
 public class MainTest {
 	String str =new String("str");
