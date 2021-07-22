@@ -1,9 +1,10 @@
 package com.sapyoung.member.clara;
 
-import com.sapyoung.Gerbugi.day20210720.Gerbugi;
+import com.sapyoung.member.Gerbugi.day20210720.Gerbugi;
 
 public class MainTest {
 	String str = new String("str");
+	
 	
 	public static void main(String[] arg) {
 //		Clara c = new Clara();

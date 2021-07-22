@@ -1,6 +1,6 @@
 package com.sapyoung.member.seravision3.day20210721;
 
-import com.sapyoung.allende8505.day20210720.Allende8505;
+import com.sapyoung.member.allende8505.day20210720.Allende8505;
 import com.sapyoung.company.Company;
 
 public class Seravision3 {
@@ -14,8 +14,6 @@ public class Seravision3 {
 		String pos = "°­»ç";
 		return pos;
 	}
-
-
 
 
 	public void getDepartName() {
