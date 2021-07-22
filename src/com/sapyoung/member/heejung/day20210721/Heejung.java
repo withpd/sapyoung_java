@@ -1,6 +1,6 @@
 package com.sapyoung.member.heejung.day20210721;
 
-import com.sapyoung.Gerbugi.day20210720.Gerbugi;
+import com.sapyoung.member.Gerbugi.day20210720.Gerbugi;
 import com.sapyoung.company.Company;
 
 public class Heejung {
