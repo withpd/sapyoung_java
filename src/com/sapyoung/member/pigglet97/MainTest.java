@@ -1,7 +1,7 @@
 package com.sapyoung.member.pigglet97;
 
-import com.sapyoung.Gerbugi.day20210720.Gerbugi;
-import com.sapyoung.pigglet97.day20210720.Pigglet97; /*내가 쓰려는 class의 위치 가져와야 함*/
+import com.sapyoung.member.Gerbugi.day20210720.Gerbugi;
+import com.sapyoung.member.pigglet97.day20210720.Pigglet97; /*내가 쓰려는 class의 위치 가져와야 함*/
 
 public class MainTest {
 		

@@ -1,7 +1,7 @@
 package com.sapyoung.member.pigglet97.day20210720;
 
 import com.sapyoung.company.Company;
-import com.sapyoung.hooni7777.day20210720.Hooni7777;
+import com.sapyoung.member.hooni7777.day20210720.Hooni7777;
 
 public class Pigglet97 {
 	
