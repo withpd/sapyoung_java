@@ -1,4 +1,4 @@
-package com.sapyoung.member.ysb0807.day20210721;
+package com.sapyoung.ysb0807.day20210721;
 
 import com.sapyoung.company.Company;
 import com.sapyoung.member.yhjae1004.day20210720.Yhjae1004;
