@@ -11,7 +11,6 @@ public class MainTest {
 		Augreen a = new Augreen();
 		a.getName();
 		a.getMail();
-		a.getCompName();
 		a.getDepartName();
 	
 		Gerbugi g = new Gerbugi();
