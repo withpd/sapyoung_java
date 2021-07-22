@@ -13,7 +13,6 @@ public class MainTest {
 		h.getCompName();
 		h.getDepartName();
 		
-		
 		Gerbugi g = new Gerbugi();
 		g.getName();
 		g.getId();
