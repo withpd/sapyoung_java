@@ -1,7 +1,7 @@
 package com.sapyoung.member.heejung;
 
-import com.sapyoung.Gerbugi.day20210720.Gerbugi;
-import com.sapyoung.heejung.day20210720.Heejung;
+import com.sapyoung.member.Gerbugi.day20210720.Gerbugi;
+import com.sapyoung.member.heejung.day20210720.Heejung;
 
 public class MainTest {
 	
