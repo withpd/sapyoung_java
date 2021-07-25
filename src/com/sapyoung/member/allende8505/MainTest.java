@@ -1,23 +1,26 @@
 package com.sapyoung.member.allende8505;
 
-import com.sapyoung.member.Gerbugi.day20210720.Gerbugi;
-import com.sapyoung.member.allende8505.day20210720.Allende8505;
+import com.sapyoung.member.allende8505.day20210722.Allende8505;
 
 public class MainTest {
 	
-	public static void main(String[] arg) {
-		Allende8505 alle = new Allende8505();
-		alle.getName();
-		alle.getposition();
-		alle.getCompName();
-		alle.getDepartName();
-		alle.getId();
+	public static void main(String[] arg) {		
+		Allende8505 a = new Allende8505();
+		String name = a.getName();
+		String id = a.getId();
+		int floor = a.getFloor();
+		String depart = a.getDepartName();
+		String pos = a.getposition();
+		String mail = a.getMail();
 		
-		Gerbugi g = new Gerbugi();
-		g.getName();
-		g.getPosition();
-		g.getCompName();
-		g.getDepartName();
-		g.getId();
+		id = "[" + id + "]";
+		
+		System.out.println(name);
+		System.out.println(id);
+		System.out.println(floor+"Ãþ");
+		System.out.println(depart);
+		System.out.println(pos);
+		System.out.println(mail);
+		a.desc();
 	}
 }
