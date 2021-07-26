@@ -15,7 +15,7 @@ public class Withpd {
 		pos = position;
 	}
 	
-	private String getPosition() {
+	public String getPosition() {
 		return pos;
 //		return "°­»ç";
 	}
