@@ -22,6 +22,8 @@ public class Gerbugi {
 	}
 	
 	
+	
+	
 	public int getFloor() {
 //		int floor = "5";
 //		return floor;
