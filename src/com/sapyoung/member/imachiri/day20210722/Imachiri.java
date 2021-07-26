@@ -1,4 +1,4 @@
-package com.sapyoung.member.imachiri.day20210721;
+package com.sapyoung.member.imachiri.day20210722;
 
 import com.sapyoung.company.Company;
 import com.sapyoung.member.hooni7777.day20210720.Hooni7777;
@@ -15,24 +15,30 @@ public class Imachiri {
 		return pos;
 	}
 
-	public void getFloor() {
-		System.out.println("ÁöÇÏ 1Ãş");
+	public int getFloor() {
+	//	int floor = -1;
+	//	return floor;
+		return -1;
 	}
 	
-	public void getDepartname() {
-		System.out.println("µğÁöÅĞ»ç¾÷ÆÀ");
+	public String getDepartname() {
+		String dep = "µğÁöÅĞ»ç¾÷ÆÀ";
+		return dep;
 	}
 	
-	public void getMail() {
-		System.out.println("gean716@sapyoung.com");
+	public String getMail() {
+		String mail = "gean716@sapyoung.com";
+		return mail;
 	}
 	
 	public void desc() {
 		System.out.println("µğÁöÅĞ»ç¾÷ÆÀ ½Å»ç¾÷ ±âÈ¹¿¡ Âü¿©ÇÏ°í ÀÖ½À´Ï´Ù.");
 	}
 
-	public void getId() {
-		System.out.println(getClass().getSimpleName());
+	public String getId() {
+		String className = getClass().getSimpleName();
+		/* System.out.println(className); */
+		return className;
 	}
 	
 	public static void main(String[] args) {

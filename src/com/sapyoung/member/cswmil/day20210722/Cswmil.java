@@ -1,6 +1,6 @@
 package com.sapyoung.member.cswmil.day20210722;
 
-public class cswmil {
+public class Cswmil {
 
 	public String getName() {
 		String name = "�輺ȣ";
