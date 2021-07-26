@@ -21,6 +21,7 @@ public class MainTest {
 		Seravision3.desc();
 		String id = seravision3.getId();
 
+		
 		id = "[" + id + "]" + 1111;
 
 		System.out.println(id);
