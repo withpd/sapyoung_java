@@ -1,6 +1,6 @@
-package com.sapyoung.vo;
+package com.sapyoung.dto;
 
-public class UserVo {
+public class UserDto {
 	private String id;
 	private String mail;
 	private String floor;
