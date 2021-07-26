@@ -4,6 +4,7 @@ import com.sapyoung.member.withpd.day20210726.Withpd;
 
 public class Seoulite80 {
 
+	
 	private String pos = "사원";
 	private String mail = "사원";
 	private String id = "사원";
