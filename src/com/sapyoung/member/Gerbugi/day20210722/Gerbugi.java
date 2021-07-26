@@ -48,6 +48,8 @@ public class Gerbugi {
 		String name = g.getName();
 		String pos = g.getPosition();
 		
+		
+		
 		System.out.println("[" + pos + " " + name + "]");
 		
 //		Company c = new Company();
