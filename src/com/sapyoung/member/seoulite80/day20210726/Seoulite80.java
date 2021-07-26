@@ -10,7 +10,6 @@ public class Seoulite80 {
 	private String floor = "»ç¿ø";
 	private String departNmae;
 	
-	
 	public void setPosition(String position) {
 		pos = position;
 	}
