@@ -15,6 +15,9 @@ public class MainTest {
 		Histoyw histoyw = new Histoyw();
 		histoyw.desc();
 		String id = histoyw.getId();
+		
+		id = "[" + id + "]" + " " + 512;
+		
 		System.out.println(id);
 		
 	
