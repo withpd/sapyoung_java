@@ -1,9 +1,7 @@
-package com.sapyoung.member.seoulite80.day20210726;
+package com.sapyoung.member.heejung.day20210726;
 
-// import com.sapyoung.vo.UserVo;
-
-public class SouliteVo {
-
+public class HeejungVo {
+	
 	private String id;
 	private String mail;
 	private String floor;
@@ -48,9 +46,9 @@ public class SouliteVo {
 		this.pos = pos;
 	}
 	
-	public static void main(String[] args) {
-//		UserVo seouliteVo = new UserVo();
-//		seouliteVo.setDepartName("아카데미");
-
-	}
+	
+	
+	
+	
+	
 }
