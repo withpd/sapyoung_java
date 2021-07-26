@@ -4,12 +4,12 @@ import com.sapyoung.member.withpd.day20210726.Withpd;
 
 public class Seoulite80 {
 
+	
 	private String pos = "사원";
 	private String mail = "사원";
 	private String id = "사원";
 	private String floor = "사원";
 	private String departNmae;
-	
 	
 	public void setPosition(String position) {
 		pos = position;
@@ -64,11 +64,11 @@ public class Seoulite80 {
 		 * s.pos = "1111"; String pos = s.getPosition(); System.out.println(pos);
 		 */
 
-		Withpd w = new Withpd();
-
-		w.pos = "1111";
-		String pos = w.getPosition();
-		System.out.println(pos);
+		/*
+		 * Withpd w = new Withpd();
+		 * 
+		 * w.pos = "1111"; String pos = w.getPosition(); System.out.println(pos);
+		 */
 
 	}
 
