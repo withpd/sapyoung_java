@@ -21,6 +21,7 @@ public class MainTest {
 		Seravision3.desc();
 		String id = seravision3.getId();
 
+		
 		id = "[" + id + "]" + 1111;
 
 		System.out.println(id);
@@ -29,8 +30,8 @@ public class MainTest {
 		String pos = s.getPosition();
 		System.out.println(pos);
 		Withpd w = new Withpd();
-		String pos2 = w.getPosition();
-		System.out.println(pos2);
+//		String pos2 = w.getPosition();
+//		System.out.println(pos2);
 
 	}
 }
