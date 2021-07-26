@@ -1,16 +1,13 @@
-package com.sapyoung.member.seoulite80.day20210726;
+package com.sapyoung.member.peepstest.day20210726;
 
-// import com.sapyoung.vo.UserVo;
 
-public class SouliteVo {
-
-	private String id;
-	private String mail;
-	private String floor;
-	private String name;
-	private String departName;
-	private String pos;
-	
+public class PeepstestVo {
+	private String id; 
+	private String mail; 
+	private String floor; 
+	private String name; 
+	private String departName; 
+	private String Pos;
 	public String getId() {
 		return id;
 	}
@@ -42,15 +39,17 @@ public class SouliteVo {
 		this.departName = departName;
 	}
 	public String getPos() {
-		return pos;
+		return Pos;
 	}
 	public void setPos(String pos) {
-		this.pos = pos;
-	}
-	
-	public static void main(String[] args) {
-//		UserVo seouliteVo = new UserVo();
-//		seouliteVo.setDepartName("아카데미");
+		this.Pos = pos;
+	} 
 
-	}
+	
+	
+	
+	
+	
+	
+
 }
