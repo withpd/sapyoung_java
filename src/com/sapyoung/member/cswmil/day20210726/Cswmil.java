@@ -62,12 +62,13 @@ public class Cswmil {
 //		String posAfter = c.getPosition();
 //		System.out.println("AFTER : " + posAfter);
 		
-		w.pos = "1111";
-		String pos = w.getPosition();
-		System.out.println(pos);
+//		w.pos = "1111";
+//		String pos = w.getPosition();
+//		System.out.println(pos);
 		
 		// 프로그램 종료
 	}
+	
 	
 	
 }
