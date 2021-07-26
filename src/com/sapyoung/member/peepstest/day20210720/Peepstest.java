@@ -16,9 +16,9 @@ public class Peepstest {
 
 	}
 
-	public void getMail() {
-		System.out.println("suzylee@sapyoung.com");
-
+	public String getMail() {
+		String mail = "suzylee@sapyoung.com";
+		return mail;
 	}
 
 	public void desc() {
