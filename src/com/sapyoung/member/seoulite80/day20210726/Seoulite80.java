@@ -64,11 +64,11 @@ public class Seoulite80 {
 		 * s.pos = "1111"; String pos = s.getPosition(); System.out.println(pos);
 		 */
 
-		Withpd w = new Withpd();
-
-		w.pos = "1111";
-		String pos = w.getPosition();
-		System.out.println(pos);
+		/*
+		 * Withpd w = new Withpd();
+		 * 
+		 * w.pos = "1111"; String pos = w.getPosition(); System.out.println(pos);
+		 */
 
 	}
 

@@ -1,6 +1,6 @@
 package com.sapyoung.member.seoulite80.day20210726;
 
-import com.sapyoung.vo.UserVo;
+// import com.sapyoung.vo.UserVo;
 
 public class SouliteVo {
 
@@ -49,10 +49,8 @@ public class SouliteVo {
 	}
 	
 	public static void main(String[] args) {
-		UserVo seouliteVo = new UserVo();
-		
-		seouliteVo.setDepartName("아카데미");
-		
+//		UserVo seouliteVo = new UserVo();
+//		seouliteVo.setDepartName("아카데미");
 
 	}
 }
