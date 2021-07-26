@@ -9,7 +9,7 @@ import com.sapyoung.member.smjhsh.day20210720.Smjhsh;
 public class Withpd {
 
 	// 지역변수 / 전역변수
-	public String pos = "사원";
+	private String pos = "사원";
 	
 	public void setPosition(String position) {
 		pos = position;
