@@ -1,21 +1,17 @@
 package com.sapyoung.member.seoulite80;
 
-import com.sapyoung.member.Gerbugi.day20210721.Gerbugi;
-import com.sapyoung.member.seoulite80.day20210721.Seoulite80;
+import com.sapyoung.member.seoulite80.day20210726.Seoulite80;
 
 public class MainTest {
 	
 	public static void main(String[] args) {
 		Seoulite80 s = new Seoulite80();
-		s.getId();
-		s.getName();
+
+		String name = s.getName();
+		String pos = s.getPosition();		
+		System.out.println("[" + name + " " + pos + "]");
 		s.desc();
-		
-		Gerbugi g = new Gerbugi();
-		g.getId();
-		g.getName();
-		g.getPosition();
-		g.desc();
-		
+		String id = s.getId();
+		System.out.println(id);
 	}
 }
