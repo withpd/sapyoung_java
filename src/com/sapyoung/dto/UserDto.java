@@ -3,7 +3,7 @@ package com.sapyoung.dto;
 public class UserDto {
 	private String id;
 	private String mail;
-	private String floor;
+	private int floor;
 	private String name;
 	private String departName;
 	private String pos;
@@ -20,10 +20,10 @@ public class UserDto {
 	public void setMail(String mail) {
 		this.mail = mail;
 	}
-	public String getFloor() {
+	public int getFloor() {
 		return floor;
 	}
-	public void setFloor(String floor) {
+	public void setFloor(int floor) {
 		this.floor = floor;
 	}
 	public String getName() {
