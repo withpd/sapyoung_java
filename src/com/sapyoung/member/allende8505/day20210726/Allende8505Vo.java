@@ -8,7 +8,7 @@ public class Allende8505Vo {
 	private String name;
 	private String departName;
 	private String pos;
-	
+	 
 	
 	public String getId() {
 		return id;

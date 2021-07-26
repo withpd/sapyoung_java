@@ -1,7 +1,7 @@
 package com.sapyoung.member.allende8505.day20210726;
 
 //import com.sapyoung.member.withpd.day20210726.Withpd;
-
+ 
 /*import com.sapyoung.company.Company;
 import com.sapyoung.member.histoyw.day20210720.Histoyw;*/
 
@@ -9,7 +9,7 @@ public class Allende8505 {
 	
 	//지역변수 / 전역변수
 	private String pos = "사원";		
-	
+	  
 	
 	public void setPosition(String position) {
 		pos = position;
