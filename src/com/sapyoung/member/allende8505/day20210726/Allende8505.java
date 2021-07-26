@@ -9,7 +9,7 @@ public class Allende8505 {
 	
 	//지역변수 / 전역변수
 	private String pos = "사원";		
-	  
+	
 	
 	public void setPosition(String position) {
 		pos = position;
