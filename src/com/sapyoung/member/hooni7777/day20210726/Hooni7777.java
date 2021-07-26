@@ -64,9 +64,9 @@ public class Hooni7777 {
 //		String posAfter = h.getPosition();
 //		System.out.println("After : " + posAfter);
 
-		w.pos = "1111";
-		String pos = w.getPosition();
-		System.out.println(pos);
+//		w.pos = "1111";
+//		String pos = w.getPosition();
+//		System.out.println(pos);
 		
 	}
 }
