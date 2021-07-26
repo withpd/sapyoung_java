@@ -29,7 +29,7 @@ public class MainTest {
 		String pos = s.getPosition();
 		System.out.println(pos);
 		Withpd w = new Withpd();
-		String pos2 = w.getPosition();
+//		String pos2 = w.getPosition();
 		System.out.println(pos2);
 
 	}
