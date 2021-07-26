@@ -30,7 +30,7 @@ public class MainTest {
 		System.out.println(pos);
 		Withpd w = new Withpd();
 //		String pos2 = w.getPosition();
-		System.out.println(pos2);
+//		System.out.println(pos2);
 
 	}
 }
