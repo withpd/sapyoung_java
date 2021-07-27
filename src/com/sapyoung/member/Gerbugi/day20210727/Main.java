@@ -13,6 +13,8 @@ public class Main {
 		System.out.println(f + "층");
 		System.out.println(de);
 		
+		
+		
 		// 기본 생성자 예제		
 //		UserDto dto = new UserDto();
 //		dto.setName("나연희");
