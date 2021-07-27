@@ -1,25 +1,27 @@
 package com.sapyoung.member.augreen;
 
-import com.sapyoung.member.Gerbugi.day20210720.Gerbugi;
-import com.sapyoung.member.augreen.day20210721.Augreen;
+import com.sapyoung.member.augreen.day20210722.Augreen;
 
 public class MainTest {
-	String s = "d";
-	public static void main(String[] arg) {
+	
+		public static void main(String[] arg) {
+					
+					
+			
+			
 		Augreen a = new Augreen();
-		a.getName();
-		a.getMail();
-		a.getDepartName();
-	
-		Gerbugi g = new Gerbugi();
-		g.getName();
-		g.getCompName();
-		g.getCompTel();
-		g.getId();
+		String name = a.getName();
+		String pos = a.getPosition();
+		System.out.println("[" + name + " " + pos + "]");
+		a.desc();
+		String id = a.getId();
+		
+		id = "[" + id + "]";
+		
+		System.out.println(id);
+		
+		
 	}
-	
-	
-	
 	
 	
 	
