@@ -7,17 +7,18 @@ public class Main {
 	public static void main(String[] args) {
 		
 		// 기본 생성자 X
-		UserDto dto = new UserDto(2);
-		String de = dto.getDepartName();
-		int f = dto.getFloor();
+		UserDto dto1 = new UserDto(2);
+		String de = dto1.getDepartName();
+		int f = dto1.getFloor();
 		System.out.println(f + "층");
 		System.out.println(de);
 		
+		
 		// 기본 생성자 예제
-//		UserDto dto = new UserDto();
-//		dto.setName("배성호");
-//		dto.setName();
-//		dto.setName(1);
+		UserDto dto = new UserDto();
+		dto.setName("배성호");
+		dto.setName();
+		dto.setName(1);
 //		
 //		dto.setDepartName("기타");
 //		dto.setFloor(5);
