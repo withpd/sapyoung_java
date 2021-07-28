@@ -1,7 +1,6 @@
 package com.sapyoung.member.clara.day20210728;
 
 import com.sapyoung.company.Company;
-
 import com.sapyoung.dto.UserDto;
 
 public class Main  extends Company {				// 상속 받기
