@@ -25,7 +25,7 @@ public class Ysb0807 {
 	public void getId() {
 		System.out.println(getClass().getSimpleName());
 	}
-	
+		
 	public void getCompName() {
 		System.out.println("사회평론");
 	}
