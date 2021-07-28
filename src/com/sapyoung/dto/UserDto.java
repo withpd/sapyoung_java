@@ -2,7 +2,7 @@ package com.sapyoung.dto;
 
 import com.sapyoung.company.Company;
 
-public class UserDto {
+public class UserDto extends Company{
 	private String id;
 	private String mail;
 	private int floor;
