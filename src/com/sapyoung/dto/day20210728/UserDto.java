@@ -1,4 +1,4 @@
-package com.sapyoung.dto;
+package com.sapyoung.dto.day20210728;
 
 import com.sapyoung.company.Company;
 
@@ -10,17 +10,9 @@ public class UserDto {
 	private String departName;
 	private String pos;
 	private String result;
-	private Company com;
 	
-	
-	public Company getCom() {
-		return com;
-	}
-
 	// 扁夯 积己磊
-	public UserDto() {
-		com = new Company();
-	}					
+	public UserDto() {}					
 	
 	// 老馆 积己磊 #2
 	public UserDto(int floor) {
