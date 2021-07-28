@@ -1,5 +1,7 @@
 package com.sapyoung.dto;
 
+import com.sapyoung.company.Company;
+
 public class UserDto {
 	private String id;
 	private String mail;
@@ -7,9 +9,12 @@ public class UserDto {
 	private String name;
 	private String departName;
 	private String pos;
+	private String result;
 	
-	public UserDto() {}
+	// 기본 생성자
+	public UserDto() {}					
 	
+	// 일반 생성자 #2
 	public UserDto(int floor) {
 		
 		setFloor(floor);
@@ -18,6 +23,8 @@ public class UserDto {
 		else if(floor == 3) setDepartName("개발팀");
 		else if(floor == 4) setDepartName("아카데미");
 		else setDepartName("경영");
+		result = "floor : " + getFloor() + ", departName : " + getDepartName();
+		
 		
 		/*
 		 *  2층 : 어린이사업부
@@ -25,6 +32,19 @@ public class UserDto {
 		 *  4층 : 아카데미
 		 *  5층 : 경영
 		 */
+	}
+	
+	// 일반 생성자 #2
+	public UserDto(int floor, String departName) {
+		setFloor(floor);
+		setDepartName(departName);
+		
+		Company com = new Company();
+		String comName = com.getCompName();
+		String comTel = com.getCompTel();
+		
+		result = "floor : " + getFloor() + ", departName : " + getDepartName() + "\n";
+		result += comName + ", "+ comTel;
 	}
 	
 	public String getId() {
@@ -85,5 +105,9 @@ public class UserDto {
 	
 	public void setPos(String pos) {
 		this.pos = pos;
+	}
+	
+	public String getResult() {
+		return result;
 	}
 }
