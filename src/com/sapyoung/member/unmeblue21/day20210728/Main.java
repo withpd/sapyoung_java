@@ -13,13 +13,6 @@ public class Main extends Company{
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
 		// 기본 생성자 X
 		
 		UserDto dto1 = new UserDto(2);
