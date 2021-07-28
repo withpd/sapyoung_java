@@ -1,4 +1,4 @@
-package com.sapyoung.member.yhjae1004.day20210721;
+package com.sapyoung.member.yhjae1004.day20210722;
 
 import com.sapyoung.company.Company;
 import com.sapyoung.member.ysb0807.day20210720.Ysb0807;
@@ -9,25 +9,37 @@ public class Yhjae1004 {
 		return name;
 	}
 	
-	public void getDepartName() {
-		System.out.println("브릭스알앤디");
+	public String getDepartName() {
+		String depart = "사원";
+		return depart;
 	}
 	
 	public String getPosition() {
-		String pos = "사원";
-		return pos;
+		// String pos = "사원"; 
+		// return pos; 
+		return "사원";
 	}
 	
-	public void getMail() {
-		System.out.println("yhjae92@ebricks.co.kr");
+	public int getFloor() {
+		// int floor = 3;
+		// return floor;
+		return 5;
+	}
+	
+	public String getMail() {
+		String mail = "yhjae92@ebrick.co.kr";
+		return mail;
+			
 	}
 	
 	public void desc() {
 		System.out.println("영어 콘텐츠 개발을 담당하고 있습니다.");
 	}
 	
-	public void getId() {
-		System.out.println(getClass().getSimpleName());
+	public String getId() {
+		String className = getClass().getSimpleName();
+		System.out.println(className);
+		return className;
 	}
 	
 	public static void main(String[] args) {
