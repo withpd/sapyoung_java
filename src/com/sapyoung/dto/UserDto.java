@@ -23,7 +23,6 @@ public class UserDto {
 		else if(floor == 3) setDepartName("개발팀");
 		else if(floor == 4) setDepartName("아카데미");
 		else setDepartName("경영");
-		
 		result = "floor : " + getFloor() + ", departName : " + getDepartName();
 		
 		

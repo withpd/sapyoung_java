@@ -28,7 +28,6 @@ public class Main {
 //		System.out.println(result);
 		
 //		UserDto dto3 = new UserDto(2, "기타");
-//		
 //		dto3.setId("withpd");
 //		dto3.setMail("withpd@gmail.com");
 //		dto3.setName("배성호");

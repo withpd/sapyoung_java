@@ -8,7 +8,6 @@ public class Company {
 	public String getCompTel() {
 		return "02-326-1182";
 	}
-
 	public String getCompSite() {
 		return "https://www.sapyoung.com";
 	}
