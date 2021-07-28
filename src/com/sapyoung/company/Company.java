@@ -4,7 +4,6 @@ public class Company {
 	public String getCompName() {
 		return "사회평론";
 	}
-
 	public String getCompTel() {
 		return "02-326-1182";
 	}
