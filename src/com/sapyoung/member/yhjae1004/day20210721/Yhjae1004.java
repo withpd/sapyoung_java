@@ -1,7 +1,7 @@
 package com.sapyoung.member.yhjae1004.day20210721;
 
-/*import com.sapyoung.company.Company;*/
-/*import com.sapyoung.ysb0807.*;*/
+import com.sapyoung.company.Company;
+import com.sapyoung.member.ysb0807.day20210720.Ysb0807;
 public class Yhjae1004 {
 	
 	public String getName() {
@@ -38,11 +38,11 @@ public class Yhjae1004 {
 		System.out.println("[" + pos + " " + name +"]");
 		y.desc();
 		
-		/*
-		 * Company c = new Company(); c.getCompSite();
-		 * 
-		 * Ysb0807 s = new Ysb0807(); s.getDepartName();
-		 */
+		
+		  Company c = new Company(); c.getCompSite();
+		  
+		  Ysb0807 s = new Ysb0807(); s.getDepartName();
+		 
 				
 	}
 }
