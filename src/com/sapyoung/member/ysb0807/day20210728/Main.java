@@ -9,5 +9,6 @@ public class Main extends Company{
 		System.out.println(comName);
 			
 		
+		
 	}
 }
