@@ -49,11 +49,11 @@ public class Smjhsh {
 			System.out.println("[" + pos + " " +name+"]");
 			w.desc();
 			
-//			Company c = new Company();
-//			c.getCompSite();
-//			
-//			Peepstest p = new Peepstest();
-//			p.getDepartName();
-//			
+			Company c = new Company();
+			c.getCompSite();
+			
+			Peepstest p = new Peepstest();
+			p.getDepartName();
+			
 		}
 }
