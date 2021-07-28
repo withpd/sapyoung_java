@@ -19,7 +19,7 @@ public class Unmeblue21 {
 		System.out.println("4Ãþ");
 	}
 		
-	private void getDepartName() {
+	public void getDepartName() {
 		System.out.println("½Å»ç¾÷3ÆÀ");
 	}
 

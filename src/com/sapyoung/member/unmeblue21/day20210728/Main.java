@@ -8,8 +8,7 @@ public class Main extends Company{
 		Main m = new Main();
 		String comName = m.getCompName();
 		System.out.println(comName);
-		
-		
+			
 		
 		
 		
