@@ -5,6 +5,12 @@ import com.sapyoung.member.hooni7777.day20210720.Hooni7777;
 
 public class Pigglet97 {
 	
+	String pos;
+		
+	public void setPosition(String position) {
+		pos = position;
+	}
+	
 	public String getName() {
 		String name = "이승은";
 		return name;
@@ -16,8 +22,8 @@ public class Pigglet97 {
 	}
 	
 	public String getPosition() {
-		String position = "부장";
-		return position;	
+		String pos = "부장";
+		return pos;	
 	}
 	
 	public int getFloor() {
@@ -48,18 +54,16 @@ public class Pigglet97 {
 		
 	}
 
-	public static void main(String[] arg) {
+	public static void main(String[] arg12) {
 		
 		Pigglet97 pigglet97 = new Pigglet97();
-		pigglet97.desc();
-		String id = pigglet97.getId();
-		String comtel = pigglet97.getCompTel();
-		System.out.println(id);
+		String pos = pigglet97.getPosition();
+		System.out.println(pos);
+		pigglet97.setPosition("부장");
+		String posBefore = pigglet97.getPosition();
+		System.out.println("BEFORE:" + posBefore);
+		pigglet97.setPosition("대리");
 		
-		id = "["  + id  +  "]" + 1111;
-			
-		System.out.println(id);
-		System.out.println(comtel);
 		
 		
 				
