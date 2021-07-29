@@ -1,13 +1,31 @@
 package com.sapyoung.company;
 
 public class Company {
+	
+	String comName;
+	
+	public Company() {
+		System.out.println("Company 기본 생성자");
+		comName = "A회사";
+	}
+	
+	public Company(String str) {
+		System.out.println("Company 생성자 #1");
+		comName = "B회사";
+	}
+
+	public Company(int num) {
+		System.out.println("Company 생성자 #2");
+		comName = "C회사";
+	}
+	
 	public String getCompName() {
-		return "사회평론";
+		return comName;
 	}
 	public String getCompTel() {
-		return "02-326-1182";
+		return "회사연락처";
 	}
 	public String getCompSite() {
-		return "https://www.sapyoung.com";
+		return "회사홈페이지";
 	}
 }
