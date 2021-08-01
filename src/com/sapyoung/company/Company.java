@@ -1,8 +1,7 @@
 package com.sapyoung.company;
 
 public class Company {
-	
-	String comName;
+	private String comName;
 	
 	public Company() {
 		System.out.println("Company 기본 생성자");
@@ -11,12 +10,12 @@ public class Company {
 	
 	public Company(String str) {
 		System.out.println("Company 생성자 #1");
-		comName = "B회사";
+		comName = str;
 	}
 
 	public Company(int num) {
 		System.out.println("Company 생성자 #2");
-		comName = "C회사";
+		comName = num + "회사";
 	}
 	
 	public String getCompName() {
