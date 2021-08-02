@@ -8,7 +8,7 @@ public class Main extends Company{
 		super();   //생략 가능
 		System.out.println("Main 기본생성자");		
 	}
-	
+
 	public Main(String str) {
 		super(str); //super = Company -> super() - >Company() & super(3) -> Company(3)
 		System.out.println("Main 생성자 #1");	
