@@ -1,32 +1,12 @@
 package com.sapyoung.member.allende8505;
 
-import com.sapyoung.company.Company;
-import com.sapyoung.member.allende8505.day20210722.Allende8505;
+import com.sapyoung.member.allende8505.day20210802.Work;
 
 public class MainTest {
-	
-	public static void main(String[] arg) {		
-		Allende8505 a = new Allende8505();
-		Company c = new Company();
-		
-		String name = a.getName();
-		String id = a.getId();
-		int floor = a.getFloor();
-		String depart = a.getDepartName();
-		String pos = a.getposition();
-		String mail = a.getMail();
-		
-		id = "[" + id + "]";
-		
-		System.out.println(name);
-		System.out.println(id);
-		System.out.println(floor+"Ãþ");
-		System.out.println(depart);
-		System.out.println(pos);
-		System.out.println(mail);
-		c.getCompName();
-		c.getCompSite();
-		c.getCompTel();
-		a.desc();
+	public static void main(String[] arg) {
+		Work w = new Work();
+		w.init("allende8505");
+		String result = w.getResult();
+		System.out.println(result);
 	}
 }
