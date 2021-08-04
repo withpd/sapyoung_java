@@ -11,8 +11,7 @@ import com.sapyoung.dto.day20210728.UserDto;
 public class Main {
 	public static void main(String[] args)  {
 		String[] strArray = new String[7];
-		
-		
+			
 		strArray[0] = "°ª1";
 		strArray[1] = "°ª2";	
 		strArray[2] = "°ª3";
