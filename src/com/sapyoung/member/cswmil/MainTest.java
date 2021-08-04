@@ -1,25 +1,15 @@
 package com.sapyoung.member.cswmil;
 
-import com.sapyoung.member.withpd.day20210722.Withpd;
+import com.sapyoung.member.cswmil.day20210802.Work;
 
 public class MainTest {
 	public static void main(String[] args) {
-		
-//		Withpd w = new Withpd();
-//		w.getName();
-//		String pos = w.getPosition();
-//		w.getFloor();
-//		
-//		System.out.println("[" + pos + " " + name + "]");
-//		w.desc();
-		
-		Withpd withpd = new Withpd();
-		withpd.desc();
-		String id = withpd.getId();
-		
-		id = "[" + id + "]" + 1111;
-		
-		System.out.println(id);
+		// Work ( WorkAB, WorkIf)
+		Work w = new Work();
+		w.init("allendel8505"); // id ¼³Á¤
+		String result = w.getResult();
+		System.out.println(result);
+				
 	}
 }
 
