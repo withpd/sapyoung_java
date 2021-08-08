@@ -16,6 +16,7 @@ public class Main2 {
 		dto2.setName("이승은");
 		dto2.setPos("부장");
 		
+		
 		UserDto dto3 = new UserDto();
 		dto3.setName("나연희");
 		dto3.setPos("부장");

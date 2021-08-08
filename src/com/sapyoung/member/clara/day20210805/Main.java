@@ -25,6 +25,7 @@ public class Main {
 		
 //		System.out.println(intList.get(num1));  
 		
+	
 		
 		for(int a = 0; a < intList.size(); a++ ) {
 			System.out.println(intList.get(a));	

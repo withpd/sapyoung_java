@@ -55,6 +55,7 @@ public class MapEx {
 			UserDto dto = map.get(key);
 		
 			System.out.println(key + ":" + dto.getName());
+		
 			
 		}
 		
