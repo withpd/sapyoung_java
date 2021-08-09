@@ -5,8 +5,8 @@ import com.sapyoung.member.hooni7777.day20210802.Work;
 public class MainTest {
 	public static void main(String[] arg) {
 		Work w = new Work();
-		w.init("cswmil");
-		w.process();
+		w.init("allende8505");
+//		w.process();
 		String result = w.getResult();
 		
 		System.out.println(result);
