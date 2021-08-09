@@ -2,7 +2,6 @@ package com.sapyoung.member.peepstest.day20210726;
 
 import com.sapyoung.company.Company;
 import com.sapyoung.member.imachiri.day20210720.Imachiri;
-import com.sapyoung.member.seravision3.day20210721.Seravision3;
 import com.sapyoung.member.withpd.day20210726.Withpd;
 
 public class Peepstest {
