@@ -1,14 +1,24 @@
 package com.sapyoung.member.smjhsh;
 
-import com.sapyoung.member.smjhsh.day20210802.Work;
+//import com.sapyoung.member.smjhsh.day20210729.Smjhsh;
 
-public class MainTest {	
-//	public static void main(String[] args) {
-//		// Work (WorkAb,WorkIf)
-//		Work w = new Work();
-//		w.init("clara");
-//		w.process();
-//		String result = w.getResult();
-//		System.out.println(result);
-//	}
+public class MainTest {
+	
+	public static void main(String[] arg) {
+		
+
+	//	r.getMail();
+	//	r.getDepartName();
+//		
+//	Smjhsh s = new Smjhsh();
+//	s.desc();
+//	String id = s.getId();
+//	
+//	id = "["+ id +"]" + 1234;
+//		System.out.println(id);
+		
+		
+	
+	}	
+	
 }
