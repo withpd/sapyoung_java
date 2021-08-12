@@ -1,27 +1,35 @@
 package com.sapyoung.crawl.withpd;
 
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class News {
+import com.sapyoung.dto.ArticleDto;
+
+public class NewsMap {
 	public static void main(String[] args) throws IOException {
-		
 		
 		int page = 5;
 		
-		for(int j=1; j < page; j++) {
+		HashMap<Integer, ArrayList<ArticleDto> > articleMap = new HashMap<>(); 
+		
+		for(int j = 1; j < page; j++) {		// page 처리
 			String url = "https://news.naver.com/main/list.naver?mode=LS2D&mid=shm&sid2=265&sid1=100&date=20210811&page=" + j;
 			Document doc = Jsoup.connect(url).get();
 			Elements elements = doc.getElementsByAttributeValue("class", "list_body newsflash_body");
-			
 			Element element = elements.get(0);
 			Elements photoElements = element.getElementsByAttributeValue("class", "photo");
 			
-			for(int i=0; i<photoElements.size(); i++) {
+			ArrayList<ArticleDto> articleList = new ArrayList<ArticleDto>();
+			
+			for(int i=0; i<photoElements.size(); i++) {		// 20건의 기사 처리
+				ArticleDto aDto = new ArticleDto();
+				
 				Element articleElement = photoElements.get(i);
 				Elements aElements = articleElement.select("a");
 				Element aElement = aElements.get(0);
@@ -36,20 +44,20 @@ public class News {
 				Element contentElement = subDoc.getElementById("articleBodyContents");
 				String content = contentElement.text();			// 기사내용
 			
-				System.out.println(title);
-				System.out.println(content);
-				System.out.println();
+				aDto.setContent(content);
+				aDto.setImgUrl(imgUrl);
+				aDto.setTitle(title);
+				aDto.setUrl(url);
+
+				articleList.add(aDto);
 			}
+			
+			articleMap.put(j, articleList);
 			System.out.println(j + "page 크롤링 종료");
 		}
 		
+		// DB에 Insert
 		
-		
-		
-//		Elements aElements = element.select("a");
-//		Elements imgElements = element.select("img");
-//		
-//		System.out.println(aElements.size());
 		
 	}
 }
