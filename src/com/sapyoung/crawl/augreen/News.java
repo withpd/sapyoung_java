@@ -24,6 +24,7 @@ public class News {
 			Document doc = Jsoup.connect(url).get();
 			Elements elements = doc.getElementsByAttributeValue("class", "list_body newsflash_body");
 
+			
 			Element element = elements.get(0);
 			Elements photoElements = element.getElementsByAttributeValue("class", "photo");
 
