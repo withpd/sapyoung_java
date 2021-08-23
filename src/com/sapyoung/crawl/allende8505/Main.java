@@ -10,7 +10,7 @@ import org.jsoup.select.Elements;
 import com.sapyoung.crawl.allende8505.StockMain;
 
 public class Main {
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) {
 		StockMain stockMain = new StockMain();
 		stockMain.init("323410");
 		String result = stockMain.getResult();

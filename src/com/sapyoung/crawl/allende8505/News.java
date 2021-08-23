@@ -21,7 +21,8 @@ public class News {
 		for(int j=1; j<page; j++) {		//페이지 처리
 			
 			String url = "https://news.naver.com/main/list.naver?mode=LS2D&mid=shm&sid2=249&sid1=102&date=20210811&page=" + j;
-			Document doc = Jsoup.connect(url).get();
+			Document doc;
+			doc = Jsoup.connect(url).get();
 			Elements elements = doc.getElementsByAttributeValue("class", "list_body newsflash_body");
 			Element element = elements.get(0);
 			Elements photoElements = element.getElementsByAttributeValue("class", "photo");
