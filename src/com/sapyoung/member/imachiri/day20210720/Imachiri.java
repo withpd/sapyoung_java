@@ -1,7 +1,7 @@
 package com.sapyoung.member.imachiri.day20210720;
 
 public class Imachiri {
-
+ 
 	public void getName() {
 		System.out.println("¾È°¡Àº");
 	}
