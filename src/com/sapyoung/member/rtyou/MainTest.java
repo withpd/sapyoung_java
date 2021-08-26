@@ -1,23 +1,17 @@
 package com.sapyoung.member.rtyou;
 
-import com.sapyoung.member.rtyou.day20210722.Rtyou;
+import com.sapyoung.member.rtyou.day20210726.Rtyou;
+import com.sapyoung.member.rtyou.day20210802.Work;
 
 public class MainTest {
 	
 	public static void main(String[] arg) {
-		
-	//	Rtyou r = new Rtyou();
-	//	r.getMail();
-	//	r.getDepartName();
-		
-	Rtyou rtyou = new Rtyou();
-	rtyou.desc();
-	String id = rtyou.getId();
-	
-	id = "["+ id +"]" + 1234;
-		System.out.println(id);
-		
-		
+			Work w =new Work();
+			w.init("augreen");
+			
+			String result = w.getResult();
+					
+			System.out.println(result);
 	
 	}	
 	
