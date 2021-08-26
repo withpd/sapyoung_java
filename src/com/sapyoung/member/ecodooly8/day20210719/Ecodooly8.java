@@ -3,7 +3,7 @@ package com.sapyoung.member.ecodooly8.day20210719;
 public class Ecodooly8 {
 	
 	public void getName() {
-		System.out.println("±èÁö¹Î");
+		System.out.println("±èÁö¹Î"); 
 	}
 
 	public void getDepartName() {
