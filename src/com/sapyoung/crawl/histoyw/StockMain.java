@@ -1,6 +1,5 @@
 package com.sapyoung.crawl.histoyw;
 
-
 import com.sapyoung.common.WorkAb;
 
 public class StockMain extends WorkAb{

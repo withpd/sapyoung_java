@@ -1,6 +1,5 @@
 package com.sapyoung.crawl.histoyw;
 
-
 import java.io.IOException;
 import java.util.ArrayList;
 
