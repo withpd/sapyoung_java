@@ -12,6 +12,7 @@ public class MainTest {
 		w.init("ecodooly8"); //id ¼³Á¤
 		String result = w.getResult();
 		
+		
 		System.out.println(result);
 	
 	}
