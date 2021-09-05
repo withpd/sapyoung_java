@@ -1,7 +1,6 @@
 package com.sapyoung.crawl.withpd;
 
 import java.io.IOException;
-import java.util.ArrayList;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -24,7 +23,7 @@ public class Stock {
 		Elements e3 = e2.select("span");
 		Element e4 = e3.get(0);
 		String price = e4.text();
-		// System.out.println(price);
+		 System.out.println(price);
 
 	}
 }
