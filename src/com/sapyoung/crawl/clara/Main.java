@@ -12,7 +12,6 @@ public class Main {
 		Document doc = Jsoup.connect("https://en.wikipedia.org/").get();
 		System.out.println(doc);	
 		
-		
 //		System.out.println(doc.title());
 //		Elements newsHeadlines = doc.select("#mp-itn b a");
 //		for (Element headline : newsHeadlines) {
