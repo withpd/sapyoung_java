@@ -19,8 +19,8 @@ public class DbTest {
 		String driver = "com.mysql.cj.jdbc.Driver";
 		
 		// 실행할 쿼리(INSERT)
-		String query = "INSERT INTO geek9.Test(name, phone, addr) VALUES('배성호4', '0328345292', '인천')";
-		
+		String query = "INSERT INTO geek9.Test(name, phone, addr) VALUES('" + name + "', '" + phone + "', '" + addr + "')";
+		// 			   "INSERT INTO geek9.Test(name, phone, addr) VALUES('    배성호    ',     '1111    ', '     인천     ')"
 		int result = 0;
 		try {
 			Class.forName(driver);
@@ -58,6 +58,6 @@ public class DbTest {
 	
 	public static void main(String[] arg) {
 		DbTest db = new DbTest();
-		db.insert(null, null, null);
+		db.insert("짱구", "123123412", "부산");	// 이름/폰/주소
 	}
 }
