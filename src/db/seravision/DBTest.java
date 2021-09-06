@@ -9,7 +9,6 @@ public class DBTest {
 	 }
 	 
 	 public int insert (String name, String phone, String addr){
-		 
 		 return 0;
 	 }
 
