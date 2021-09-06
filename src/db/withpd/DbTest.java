@@ -4,8 +4,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 
-import com.sapyoung.Constants;
-
 public class DbTest {
 	
 	public int insert(String name, String phone, String addr) {
