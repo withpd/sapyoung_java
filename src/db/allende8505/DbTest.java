@@ -17,7 +17,7 @@ public class DbTest {
 		String port = "3306";
 		String sid = "mysql";
 		String id = "admin";
-		String pw = "871125yh+";
+		String pw = "**********";
 		String driver = "com.mysql.cj.jdbc.Driver";
 		
 		//실행할 쿼리(INSERT)
