@@ -110,18 +110,17 @@ public class DbTest {
 			
 			rs = pstmt.executeQuery();	// select
 			
+			// 3. 결과 확인
 			while(rs.next()) {
 				String name = rs.getString(1);
 				String phone = rs.getString(2);
 				String location = rs.getString(3);
 				
-				System.out.println(name);
-				System.out.println(phone);
-				System.out.println(location);
+				System.out.println("이름 : " + name);
+				System.out.println("전화 : " + phone);
+				System.out.println("지역 : " + location);
 			}
 			
-			// 3. 결과 확인
-			System.out.println("결과 : " + rs);
 			
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -158,7 +157,6 @@ public class DbTest {
 //		db.insert("영수", "100000", "대전");	// 이름/폰/주소
 //		db.delete("배성호");
 //		db.update("인천", "배성호");
-		db.select("8235");
-		
+		db.select("010");
 	}
 }
