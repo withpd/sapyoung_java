@@ -95,7 +95,7 @@ public class DbTest {
 	
 	public String select(String condition) {
 	
-		condition = "%" + condition + "%";
+//		condition = "%" + condition + "%";
 		
 		// 실행할 쿼리(SELECT)
 		String query = "SELECT * FROM geek9.Test WHERE phone like ?" ;
@@ -157,6 +157,6 @@ public class DbTest {
 //		db.insert("영수", "100000", "대전");	// 이름/폰/주소
 //		db.delete("배성호");
 //		db.update("인천", "배성호");
-		db.select("010");
+		db.select("%2");
 	}
 }
