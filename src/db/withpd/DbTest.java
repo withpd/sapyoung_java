@@ -5,8 +5,6 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
-import com.sapyoung.Constants;
-
 public class DbTest {
 	
 	// 접속정보
@@ -93,16 +91,15 @@ public class DbTest {
 		return result;
 	}
 	
-	public String select(String condition) {
+	public String select(String condition) {		// 성호
 	
-//		condition = "%" + condition + "%";
+		condition = "%" + condition + "%";			// %성호%
 		
 		// 실행할 쿼리(SELECT)
 		String query = "SELECT * FROM geek9.Test WHERE phone like ?" ;
 		
 		ResultSet rs = null;
 		try {
-		
 			
 			// 2. SELECT Query 실행
 			PreparedStatement pstmt = con.prepareStatement(query);
@@ -143,7 +140,7 @@ public class DbTest {
 			result = pstmt.executeUpdate();
 			
 			// 3. 결과 확인
-//			System.out.println("결과 : " + result);
+			System.out.println("결과 : " + result);
 			
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -157,6 +154,6 @@ public class DbTest {
 //		db.insert("영수", "100000", "대전");	// 이름/폰/주소
 //		db.delete("배성호");
 //		db.update("인천", "배성호");
-		db.select("%2");
+		db.select("010");
 	}
 }
