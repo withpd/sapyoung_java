@@ -2,6 +2,7 @@ package com.sapyoung.dto;
 
 import com.sapyoung.company.Company;
 
+// name, phone, addr
 public class UserDto extends Company{
 	private String id;
 	private String mail;
@@ -10,6 +11,9 @@ public class UserDto extends Company{
 	private String departName;
 	private String pos;
 	private String result;
+	private String phone;
+	private String addr;
+	
 	
 	// 기본 생성자
 	public UserDto() {}					
@@ -45,6 +49,22 @@ public class UserDto extends Company{
 		
 		result = "floor : " + getFloor() + ", departName : " + getDepartName() + "\n";
 		result += comName + ", "+ comTel;
+	}
+
+	public String getPhone() {
+		return phone;
+	}
+
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+
+	public String getAddr() {
+		return addr;
+	}
+
+	public void setAddr(String addr) {
+		this.addr = addr;
 	}
 	
 	public String getId() {
