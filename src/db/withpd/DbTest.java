@@ -4,16 +4,21 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.util.ArrayList;
+
+import com.sapyoung.dto.UserDto;
 
 public class DbTest {
 	
-	// 접속정보
-	String host = "database-1.cjvdgquniwjw.ap-northeast-2.rds.amazonaws.com";
-	String port = "3306";
+	// DB접속 정보
+	String host;
+	String port;
 	String sid;
+	String driver;
+	
+	// 사용자 정보 -> 생성자를 통해 get
 	String id;
 	String pw;
-	String driver = "com.mysql.cj.jdbc.Driver";
 	
 	Connection con = null;
 	
@@ -21,13 +26,12 @@ public class DbTest {
 		
 	}
 
-	public DbTest(String id, String pw, String sid) {
+	public DbTest(String id, String pw) {
 		this.id = id;
 		this.pw = pw;
-		this.sid = sid;
 	}
 	
-	public void connect() {
+	public void connect(String host, String port, String sid, String driver) {
 		
 		try {
 			Class.forName(driver);
@@ -91,7 +95,7 @@ public class DbTest {
 		return result;
 	}
 	
-	public String select(String condition) {		// 성호
+	public ArrayList<UserDto> select(String condition) {		// 성호
 	
 		condition = "%" + condition + "%";			// %성호%
 		
@@ -99,6 +103,7 @@ public class DbTest {
 		String query = "SELECT * FROM geek9.Test WHERE phone like ?" ;
 		
 		ResultSet rs = null;
+		ArrayList<UserDto> userList = new ArrayList<>();
 		try {
 			
 			// 2. SELECT Query 실행
@@ -109,20 +114,28 @@ public class DbTest {
 			
 			// 3. 결과 확인
 			while(rs.next()) {
+				UserDto dto = new UserDto();
+				
 				String name = rs.getString(1);
 				String phone = rs.getString(2);
 				String location = rs.getString(3);
 				
-				System.out.println("이름 : " + name);
-				System.out.println("전화 : " + phone);
-				System.out.println("지역 : " + location);
+				dto.setName(name);
+				dto.setPhone(phone);
+				dto.setAddr(location);
+				
+				userList.add(dto);
+				
+//				System.out.println("이름 : " + name);
+//				System.out.println("전화 : " + phone);
+//				System.out.println("지역 : " + location);
 			}
 			
 			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		return "";
+		return userList;
 	}
 	
 	public int update(String oldVal, String newVal) {
@@ -149,11 +162,20 @@ public class DbTest {
 	}
 	
 	public static void main(String[] arg) {
-		DbTest db = new DbTest("admin", "1234", "geek9");
-		db.connect();		// 접속	
+		DbTest db = new DbTest("admin", "1234");
+		db.connect("database-1.cjvdgquniwjw.ap-northeast-2.rds.amazonaws.com", "3306", "geek9", "com.mysql.cj.jdbc.Driver");		// 접속	
 //		db.insert("영수", "100000", "대전");	// 이름/폰/주소
 //		db.delete("배성호");
 //		db.update("인천", "배성호");
-		db.select("010");
+		ArrayList<UserDto> voList = db.select("0");
+		
+		int result = voList.size();
+		System.out.println(result + "건");
+		
+		
+		
+		
+		
+		
 	}
 }
