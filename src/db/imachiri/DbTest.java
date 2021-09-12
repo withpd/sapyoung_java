@@ -155,7 +155,7 @@ public class DbTest {
 			result = pstmt.executeUpdate();
 			
 			// 3. 결과 확인
-//			System.out.println("결과 : " + result);
+			System.out.println("결과 : " + result);
 			
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -172,6 +172,7 @@ public class DbTest {
 		ArrayList<UserDto> voList = db.select("0");
 		
 		int result = voList.size();
-		System.out.println();
+		System.out.println(result + "건");
+		
 	}
 }
